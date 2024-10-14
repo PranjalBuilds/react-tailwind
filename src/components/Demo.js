@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Alert from './Alert';
 
 const Demo = (props) => {
-    let [showAlert, setAlert] = useState(false);
+
 
     function handleClick() {
         setAlert(true);
@@ -11,19 +11,6 @@ const Demo = (props) => {
     function removeAlert() {
         setAlert(false);
     }
-
-    return (
-        <div>
-            {showAlert && (
-                <div className="fixed top-0 left-0 right-0 flex justify-center z-50 p-4">
-                    <Alert dismissAlert={removeAlert} />
-                </div>
-            )}
-            <div className='border-2 border-solid border-gray-300 p-3 mt-3 ms-2 w-80 rounded-md'>
-                <div className='relative'>
-                    <img className='w-80 rounded-md h-48' src={`https://dummyimage.com/1600x900/000/fff&text=${props.title}`} alt={props.title} />
-                    <div className={props.ratings >= 4.5 ? "bestSeller" : "none"}>Best seller</div> 
-                </div>
 
                 <div className='flex place-content-between mb-2'>
                     <h3 className='font-bold mt-3'>{props.title}</h3>
