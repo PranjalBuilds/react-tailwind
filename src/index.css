@@ -12,7 +12,10 @@
 }
 * {
     font-family: Inter;
+}
 
+.demo {
+    @apply h-40 w-40 my-3 rounded-lg bg-orange-500;
 }
 
 @tailwind utilities;
