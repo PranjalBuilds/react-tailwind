@@ -1,11 +1,12 @@
 import React from 'react'
-
-let counter = 0;
+import { useState } from 'react';
 
 const App = () => {
+  let [counter, setCounter] = useState(0);
 
-  let incrementHandler = () => {
-    console.log(counter+=1);
+  function incrementHandler () {
+    setCounter(counter+1);
+    console.log(counter);
   }
   return (
     <>
@@ -19,4 +20,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
