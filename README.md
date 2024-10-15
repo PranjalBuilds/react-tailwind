@@ -1,3 +1,5 @@
+DO NOT PULL/CLONE THE CODE OF COMMIT STARTING WITH "MERGE / MERGED...", (IT'S NOT RELATED TO THE TOPIC)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
