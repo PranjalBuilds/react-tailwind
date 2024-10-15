@@ -1,8 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+<<<<<<< HEAD
 @tailwind base;
 @tailwind components;
 
 body {
     font-family: 'Inter', sans-serif;
 }
+=======
+
+@tailwind base;
+@tailwind components;
+
+.bestSeller {
+    @apply absolute bottom-2 left-2 py-1 px-6 bg-white text-red-500 font-bold rounded-xl
+}
+
+.none {
+    display: none;
+}
+* {
+    font-family: Inter;
+}
+
+.demo {
+    @apply h-40 w-40 my-3 rounded-lg bg-orange-500;
+}
+
+>>>>>>> c1c8e1d34f14660af1232d92a7cd2a2ffcc31c30
 @tailwind utilities;
