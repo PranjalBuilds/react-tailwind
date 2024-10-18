@@ -1,38 +1,3 @@
-<<<<<<< HEAD
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-
-eslint.config.js
-package-lock.json
-package.json
-postcss.config.js
-tailwind.config.js
-vite.config.js
-readme.md
-=======
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -56,4 +21,10 @@ readme.md
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
->>>>>>> c1c8e1d34f14660af1232d92a7cd2a2ffcc31c30
+
+package.json
+package-lock.json
+postcss.config.js
+tailwind.config.js
+vite.config.js
+esliint.config.js
