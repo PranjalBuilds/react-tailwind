@@ -3,6 +3,7 @@
 @tailwind base;
 @tailwind components;
 
+
 * {
     font-family: Inter;
 }

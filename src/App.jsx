@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Index from './pages/Index'
 import About from './pages/About'
@@ -27,5 +28,4 @@ function App() {
     </>
   )
 }
-
 export default App
